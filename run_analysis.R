@@ -1,4 +1,4 @@
-#Prepare libraries and variables
+#Prepare libraries and variables 
 library(dplyr)
 fileURL <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 filename <- "Coursera_DS3_Final.zip"
