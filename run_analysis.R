@@ -14,7 +14,6 @@ y_test <- read.table("UCI HAR Dataset/test/y_test.txt", col.names = "code")
 subject_train <- read.table("UCI HAR Dataset/train/subject_train.txt", col.names = "subject")
 x_train <- read.table("UCI HAR Dataset/train/X_train.txt", col.names = features$functions)
 y_train <- read.table("UCI HAR Dataset/train/y_train.txt", col.names = "code")
-
 #Merge the train and test datasets
 X <- rbind(x_train, x_test)
 Y <- rbind(y_train, y_test)
@@ -45,5 +44,5 @@ FinalData <- TidyData %>%
 write.table(FinalData, "FinalData.txt", row.name=FALSE)
 #Check variable names
 str(FinalData)
-#Final data
+#Final data _
 FinalData
