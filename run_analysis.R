@@ -19,7 +19,7 @@ X <- rbind(x_train, x_test)
 Y <- rbind(y_train, y_test)
 Subject <- rbind(subject_train, subject_test)
 Merged_Data <- cbind(Subject, Y, X)
-#Extracts mean and standard deviation
+#Extracts mean and standard deviation 
 TidyData <- Merged_Data %>% select(subject, code, contains("mean"), contains("std"))
 #Get descriptive activity names
 TidyData$code <- activities[TidyData$code, 2]

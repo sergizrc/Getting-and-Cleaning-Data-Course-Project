@@ -1,5 +1,5 @@
 Download the dataset
-Dataset downloaded and extracted under the folder called UCI HAR Dataset
+Dataset downloaded and extracted under the folder called UCI HAR Dataset 
 
 Assign each data to variables
 features <- features.txt : 561 rows, 2 columns
